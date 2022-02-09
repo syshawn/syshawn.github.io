@@ -1,6 +1,15 @@
-<!DOCTYPE html> 
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CXFLNZ6WKT"></script>
     <script>
@@ -10,15 +19,76 @@
 
       gtag('config', 'G-CXFLNZ6WKT');
     </script>
+
     <title> Welcome to my Personal Website </title>
-  </head>
+  </head> 
 
-  <body bgcolor="black" text="white">
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="home" class="nav_logo"><img src="images/personal_logo.png" alt="" class="logo" width="26"></a>
+        
+        <div class="nav_bar" id="nav-bar">
+          <ul class="nav_list grid">
+              <li class="nav_title">
+                <a href="#home" class="nav_link">
+                  <i class="uil uil-estate nav_icon"></i> Home
+                </a>
+              </li>
+              <li class="nav_title">
+                <a href="#about" class="nav_link">
+                  <i class="uil uil-user-square nav_icon"></i> About
+                </a>
+              </li>
+              <li class="nav_title">
+                <a href="#project" class="nav_link">
+                  <i class="uil uil-laptop nav_icon"></i> Projects
+                </a>
+              </li>
+              <li class="nav_title">
+                <a href="#business" class="nav_link">
+                  <i class="uil uil-briefcase-alt nav_icon"></i></i> Business
+                </a>
+              </li>
+              <li class="nav_title">
+                <a href="contact_page.html" class="nav_link">
+                  <i class="uil uil-message nav_icon"></i> Contact Me
+                </a>
+              </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="nav-close"></i></i>
+        </div>
 
-    <h1> My first page </h1>
-    <h2> I am a software engineer.</h2>
-    <p> This is my first web page and I can say anything I want in here - I do that by putting text or images in the body section - where I'm typing right now :) </p>
+        <div class="nav_button">
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="uil uil-apps nav_icon"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main class= "main">
+      <section class="home_section" id="home">
 
+      </section>
+      <section class="about_section" id="about">
+
+      </section>
+      <section class="projects_section" id="project">
+
+      </section>
+      <section class="business_section" id="business">
+
+      </section>
+    </main>
+    <!-- Footer -->
+    
+    <!-- Scroll to Top -->
+
+    <!-- Swiper JS -->
+    
+    <!-- Main JS-->
+    <script src="main.js"></script>
   </body>
-
 </html>
