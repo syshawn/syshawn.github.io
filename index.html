@@ -10,6 +10,9 @@
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -42,6 +45,11 @@
               <li class="nav_title">
                 <a href="#about" class="nav_link">
                   <i class="uil uil-user-square nav_icon"></i> About
+                </a>
+              </li>
+              <li class="nav_title">
+                <a href="#services" class="nav_link">
+                  <i class="uil uil-layers nav_icon"></i> Services
                 </a>
               </li>
               <li class="nav_title">
@@ -100,8 +108,8 @@
               <h3 class="info_subtitle">UX/UI Designer - Software Engineer</h3>
               <p class="info_descr">
                 I'm a software engineer who's passionate in developing and desinging remarkable digital experiences 
-                for the consumers. Currently, I'm working on a 2D Role-Playing Video Game - Ominous Dawn, and building 
-                mechanical keyboards has become a new hobby for me.
+                for the consumers. Currently, I'm working on a 2D Role-Playing Video Game - Ominous Dawn, and co-founding
+                an e-commerce business offering mechanical keyboards with a group of buddies.
               </p>
             </div>
           </div>
@@ -160,6 +168,9 @@
         </div>
       </section>
 
+      <!-- Services -->
+      
+      
       <!-- Qualification -->
       <section class="qualification section" id="qualification">
         <h2 class="section_title">Qualification</h2>
@@ -312,33 +323,113 @@
         <h2 class="section_title">Portfolio</h2>
         <span class="section_subtitle">Most Recent Project</span>
 
-        <div class="portfolio_container container">
-          <div>
+        <div class="portfolio_container container swiper-container">
+          <div class="swiper-wrapper">
             <!-- Project 1 -->
-            <div class="portfolio_content grid">
-              <img src="" alt="" class="portfolio_img">
+            <div class="portfolio_content grid swiper-slide">
+              <img src="images/VR_Katsaridaphobia.png" alt="" class="portfolio_img">
 
               <div class="portfolio_data">
                 <h3 class="project_title">VR Katsaridaphobia Exposure Theraphy</h3>
-                <p class="portfolio_descr">
+                <p class="project_descr">
                   asdfklajsdklfa;skldfj;a;lskdfjalsdkfj
                 </p>
-                <a href="#" class="button button-flex button-small portfolio_button">
-                  Demo<i class="uil uil-arrow-right"></i>
-                </a>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="images/Web_Development.jpg" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="project_title">Children's Cartoon Website</h3>
+                <p class="project_descr">
+                  asdfklajsdklfa;skldfj;a;lskdfjalsdkfj
+                </p>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="images/Graphic_Designer.jpg" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="project_title">Graphic Design</h3>
+                <p class="project_descr">
+                  asdfklajsdklfa;skldfj;a;lskdfjalsdkfj
+                </p>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="portfolio_content grid swiper-slide">
+              <img src="images/Graphic_Designer.jpg" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="project_title">Game Development</h3>
+                <p class="project_descr">
+                  asdfklajsdklfa;skldfj;a;lskdfjalsdkfj
+                </p>
               </div>
             </div>
           </div>
+
+          <!-- Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>          
         </div>
       </section>
-
-      <!-- Upcoming Projects-->
     </main>
+
     <!-- Footer -->
-    
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Shawn Lim</h1>
+            <span class="footer_subtitle">UI/UX Designer - Software Engineer</span>
+          </div>
+
+          <ul class="footer_links">
+            <li>
+              <a href="#services" class="footer_link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer_link">Portfolio</a>
+            </li>
+            <li>
+              <a href="contact_page.html" class="footer_link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="footer_socials">
+            <a href="https://github.com/syshawn" target="_blank" class="footer_social social_icon">
+              <i class="uil uil-github-alt"></i>
+            </a>
+            <a href="https://www.behance.net/syshawn" target="_blank" class="footer_social social_icon">
+              <i class="uil uil-behance-alt"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/sheng-yuan-lim-0255961ba/" target="_blank" class="footer_social social_icon">
+              <i class="uil uil-linkedin-alt"></i>
+            </a>                        
+          </div>
+        </div>
+
+        <p class="footer_copyrights">&#169; Shawn Lim. All rights reserved 2022</p>
+      </div>
+    </footer>
+
     <!-- Scroll to Top -->
 
     <!-- Swiper JS -->
+    <script src="swiper-bundle.min.js"></script>
 
     <!-- Main JS-->
     <script src="main.js"></script>
