@@ -51,7 +51,7 @@
               </li>
               <li class="nav_title">
                 <a href="#project" class="nav_link">
-                  <i class="uil uil-laptop nav_icon"></i> Projects
+                  <i class="uil uil-laptop nav_icon"></i> Portfolio
                 </a>
               </li>
               <li class="nav_title">
@@ -146,15 +146,15 @@
                   <i class="uil uil-caret-right skills_icon"></i> Graphic Design
                 </li>
                 <li class="skills_title">
-                  <i class="uil uil-caret-right skills_icon"></i> Adobe Cloud Suite
+                  <i class="uil uil-caret-right skills_icon"></i> Adobe Cloud Suites
                 </li>
               </ul>
             </div>
           </div>
 
-          <div class="about_buttons">
+          <div class="about_button">
             <a download="" href="pdf/shawn_cv.pdf" class="button button-flex">
-              Download CV<i class="uil uil-download-alt download_button"></i></i>
+              Download CV<i class="uil uil-download-alt download_button"></i>
             </a>
           </div>
         </div>
@@ -167,23 +167,23 @@
 
         <div class="qualification_container container">
           <div class="qualification_tabs">
-            <div class="qualification_button button-flex">
+            <div class="qualification_button button-flex qualification_active" data-target="#education">
               <i class="uil uil-graduation-cap qualification_icon"></i>
               Education
             </div>
-            <div class="qualification_button button-flex">
+            <div class="qualification_button button-flex" data-target="#work">
               <i class="uil uil-briefcase qualification_icon"></i>
               Work
             </div>
           </div>
 
           <div class="qualification_section">
-            <!-- Education Details -->
-            <div class="qualification_content">
-              <!-- Qualification 1 -->
+            <!-- Qualification Content - Education -->
+            <div class="qualification_content qualification_active" data-content id="education">
+              <!-- Qualification Content 1 -->
               <div class="qualification_data">
                 <div>
-                  <h3 class="qualification_title">Sijil Pelajaran Malaysia (SPM)</h3>
+                  <h3 class="qualification_title">Sijil Pelajaran Malaysia </h3>
                   <span class="qualification_subtitle">SMK Kepong Baru</span>
                   <div class="qualification_calendar">
                     <i class="uil uil-calendar-alt"></i>
@@ -193,19 +193,20 @@
 
                 <div>
                   <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
+                  <span class="qualification_line"></span>                  
                 </div>
-              </div>  
+              </div>
 
-              <!-- Qualification 2 -->
+              <!-- Qualification Content 2 -->
               <div class="qualification_data">
+                <div></div>
                 <div>
                   <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
+                  <span class="qualification_line"></span>                  
                 </div>
 
                 <div>
-                  <h3 class="qualification_title">Foundation in Business & Information Technology</h3>
+                  <h3 class="qualification_title">Foundation in Business & IT</h3>
                   <span class="qualification_subtitle">YPC International College</span>
                   <div class="qualification_calendar">
                     <i class="uil uil-calendar-alt"></i>
@@ -213,8 +214,8 @@
                   </div>
                 </div>
               </div>
-            
-              <!-- Qualification 3 -->
+
+              <!-- Qualification Content 3 -->
               <div class="qualification_data">
                 <div>
                   <h3 class="qualification_title">Bachelors in Multimedia Computing</h3>
@@ -227,14 +228,13 @@
 
                 <div>
                   <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
                 </div>
               </div>
             </div>
 
-            <!-- Work Details -->
-            <div class="qualification_content">
-              <!-- Qualification 1 -->
+            <!-- Qualification Content - Work -->
+            <div class="qualification_content" data-content id="work">
+              <!-- Qualification Content 1 -->
               <div class="qualification_data">
                 <div>
                   <h3 class="qualification_title">Front Desk Crew</h3>
@@ -247,15 +247,16 @@
 
                 <div>
                   <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
+                  <span class="qualification_line"></span>                  
                 </div>
-              </div>  
+              </div>
 
-              <!-- Qualification 2 -->
+              <!-- Qualification Content 2 -->
               <div class="qualification_data">
+                <div></div>
                 <div>
                   <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
+                  <span class="qualification_line"></span>                  
                 </div>
 
                 <div>
@@ -267,8 +268,8 @@
                   </div>
                 </div>
               </div>
-            
-              <!-- Qualification 3 -->
+
+              <!-- Qualification Content 3 -->
               <div class="qualification_data">
                 <div>
                   <h3 class="qualification_title">Assistant Trainer</h3>
@@ -285,11 +286,11 @@
                 </div>
               </div>
 
-              <!-- Qualification 4 -->
+              <!-- Qualification Content 4 -->
               <div class="qualification_data">
+                <div></div>
                 <div>
-                  <span class="qualification_rounder"></span>
-                  <span class="qualification_line"></span>
+                  <span class="qualification_rounder"></span>            
                 </div>
 
                 <div>
@@ -300,24 +301,38 @@
                     2021 - Present
                   </div>
                 </div>
-              </div>              
-            </div>  
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section class="projects section" id="project">
-        <h2 class="section_title">Projects</h2>
-        <span class="section_subtitle">Past Project That I Worked On</span>
-        <div class="projects_container container grid">
-          <div>
-            <!-- Project 1 -->
-            <div class="projects_content">
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Portfolio-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">Most Recent Project</span>
+
+        <div class="portfolio_container container">
+          <div>
+            <!-- Project 1 -->
+            <div class="portfolio_content grid">
+              <img src="" alt="" class="portfolio_img">
+
+              <div class="portfolio_data">
+                <h3 class="project_title">VR Katsaridaphobia Exposure Theraphy</h3>
+                <p class="portfolio_descr">
+                  asdfklajsdklfa;skldfj;a;lskdfjalsdkfj
+                </p>
+                <a href="#" class="button button-flex button-small portfolio_button">
+                  Demo<i class="uil uil-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Upcoming Projects-->
     </main>
     <!-- Footer -->
     
