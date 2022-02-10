@@ -6,7 +6,7 @@
     --header-height: 3rem;
 
     /* Colour */
-    --hue-color: 210;
+    --hue-color: 220;
 
     /* HSL Colour Mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -242,14 +242,14 @@ img {
 }
 
 .info_name {
-    font-size: 3.75rem;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     font-weight: var(--font-semi-bold);
     color: var(--text-color);
 }
 
 .info_subtitle {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     font-weight: var(--font-medium);
@@ -264,11 +264,11 @@ img {
 .home_social {
     display: grid;
     grid-template-columns: max-content;
-    row-gap: 1.75rem;
+    row-gap: 1.5rem;
 }
 
 .home_social-icon {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--first-color);
 }
 
@@ -309,12 +309,12 @@ img {
 
 /* Buttons */
 .button {
-    font-size: var(--h4-font-size);
+    font-size: var(--h3-font-size);
     font-family: 'Poppins', sans-serif;
     display: inline-block;
     background-color: var(--first-color);
     color:#FFFFFF;
-    padding: 0.5rem 0.75rem;
+    padding: 0.75rem 1rem;
     border-radius: .2rem;
 }
 
@@ -338,17 +338,18 @@ img {
 
 /* About */
 .about_img {
-    width: 200px;
+    width: 250px;
     border-radius: .25rem;
     justify-self: center;
     align-self: center;
+    margin: var(--mb-1-5) 0;
 }
 
 .about_descr {
     font-family: 'Poppins', sans-serif;
     font-size: var(--h4-font-size);
     text-align: justify;
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-1-25);
 }
 
 .skills_list {
@@ -356,7 +357,8 @@ img {
     gap: 0.2rem;
     font-family: 'Poppins', sans-serif;
     font-size: var(--h4-font-size);
-    margin-bottom: var(--mb-1);
+    margin-bottom: var(--mb-1-5);
+    font-weight: var(--font-semi-bold);
 }
 
 .about_button {
@@ -533,7 +535,7 @@ img {
 
 .footer_social {
     font-size: 1.25rem;
-    margin-right: var(--mb-1-5);
+    margin-right: var(--mb-1-25);
 }
 
 .footer_social:hover {
@@ -556,7 +558,7 @@ img {
 }
 
 .social_icon {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 /* Contact */
