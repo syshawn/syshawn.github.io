@@ -228,6 +228,7 @@ img {
 /* Home */
 .home_content {
     grid-template-columns: .2fr 3fr;
+    gap: 2.5rem;
     padding-top: 3.5rem;
     align-items: center;
 }
@@ -264,11 +265,11 @@ img {
 .home_social {
     display: grid;
     grid-template-columns: max-content;
-    row-gap: 1.5rem;
+    row-gap: 1.8rem;
 }
 
 .home_social-icon {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     color: var(--first-color);
 }
 
@@ -338,7 +339,7 @@ img {
 
 /* About */
 .about_img {
-    width: 250px;
+    width: 240px;
     border-radius: .25rem;
     justify-self: center;
     align-self: center;
@@ -448,7 +449,7 @@ img {
 }
 
 .portfolio_img {
-    width: 265px;
+    width: 340px;
     border-radius: .25rem;
     justify-self: center;
 }

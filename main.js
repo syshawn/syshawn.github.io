@@ -48,7 +48,7 @@ const tabs = document.querySelectorAll('[data-target]'),
         })
 
 /* Sweeper Function */
-let swiper = new swiper(".portfolio_container", {
+let swiper = new Swiper(".portfolio_container", {
     cssMode: true,
     loop: true,
 
