@@ -18,7 +18,9 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #041C32;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
+    --container-color: #FFFFFF;
 
     /* Fonts */
     --font-sans: 'Poppins', 'Zen Kaku Gothic Antique', sans-serif;
@@ -137,7 +139,7 @@ img {
 
 .grid {
     display: grid;
-    gap: 1.5rem;
+    gap: 1.25rem;
 }
 
 .header {
@@ -223,6 +225,11 @@ img {
 
 .show-list {
     bottom: 0;
+}
+
+/* Change Background Header */
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 
 /* Home */
@@ -562,4 +569,48 @@ img {
     font-size: 1.25rem;
 }
 
+/* Scroll to Top */
+.scrolltotop {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    z-index: var(--z-tooltip);
+    opacity: 0.9;
+    padding: .15rem;
+    border-radius: 0.5rem;
+    transition: .4s;
+}
+
+.scrolltotop:hover {
+    background-color: var(--first-color-alt);
+}
+
+.scrolltotop_icon {
+    font-size: 1.75rem;
+    color: #FFFFFF;
+}
+
+.show-scroll {
+    bottom: 5rem;
+}
+
+/* Scroll Bar Design*/
+::-webkit-scrollbar {
+    width: .75rem;
+    background-color: var(--scroll-bar-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--text-color-light);
+}
+
 /* Contact */
+
+/* */
