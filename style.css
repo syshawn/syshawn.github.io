@@ -331,7 +331,7 @@ img {
 }
 
 .button_icon {
-    font-size: 1.25;
+    font-size: 1.25rem;
     transition: .3s;
 }
 
@@ -612,5 +612,109 @@ img {
 }
 
 /* Contact */
+.bio_content {
+    grid-template-columns: 3fr .94fr;
+    gap: 3rem;
+    padding-top: 3.5rem;
+    align-items: center;    
+}
 
-/* */
+.bio_info {
+    margin: auto;
+}
+
+.bio_name,
+.bio_location {
+    font-size: var(--h1-font-size);
+    font-family: 'Poppins', sans-serif;
+    font-weight: var(--font-semi-bold);
+    color: var(--text-color);
+}
+
+.bio_descr {
+    margin-top: var(--mb-1-5);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--h4-font-size);
+    color: black;
+}
+
+.bio_clients {
+    display: grid;
+    grid-template-columns: max-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--normal-font-size);
+    color: black;
+
+}
+
+.clients_list {
+    margin-bottom: var(--mb-0-75);
+}
+
+.bio_contact {
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.contact_icon {
+    font-size: 1.25rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.contact_subtitle {
+    font-size: var(--h4-font-size);
+    font-weight: var(--font-medium);
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.contact_container {
+    row-gap: 3rem;
+}
+
+.contact_content {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--input-color);
+    border-radius: .25rem;
+    padding: .75rem 1rem .25rem;
+}
+
+.contact_label {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+}
+
+.contact_input {
+    width: 100%;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
+}
+
+.submit_container {
+    margin: auto;
+}
+
+.submit_button {
+    font-size: var(--h3-font-size);
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: var(--first-color);
+    color:#FFFFFF;
+    padding: 1.25rem 1.25rem;
+    border-radius: 1.5rem;
+    margin: auto;
+}
+
+.submit_icon {
+    font-size: 1.2rem;
+    transition: .3s;
+    padding-left: .75rem;
+}
+
+/* Difference Device Size */
