@@ -843,7 +843,7 @@ img {
     }
 
     .section {
-        padding: 6rem;
+        padding: 11rem;
     }
 
     .section_subtitle {
@@ -966,6 +966,10 @@ img {
     .main,
     .footer_container {
         padding: 0;
+    }
+
+    .home_content {
+        gap: 4rem;
     }
 
     .home_social {
