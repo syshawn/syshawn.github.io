@@ -487,7 +487,7 @@ img {
 }
 
 .portfolio_img {
-    width: 340px;
+    width: 300px;
     border-radius: .25rem;
     justify-self: center;
 }
@@ -503,7 +503,8 @@ img {
 
 .project_descr {
     font-size: var(--h4-font-size);
-    margin-bottom: var(--mb-0-75);
+    margin-bottom: var(--mb-2);
+    text-align: justify;
 }
 
 .swiper-button-prev::after,
@@ -524,8 +525,8 @@ img {
     right: -.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -2.5rem;
+.swiper-horizontal > .swiper-pagination-bullets {
+    bottom: -.3rem;
 }
 
 .swiper-pagination-bullet-active {
