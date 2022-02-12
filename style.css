@@ -85,7 +85,7 @@ body {
     margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
+    background-color: #FFFFFF;
     color: var(--text-color);
 }
 
@@ -253,7 +253,7 @@ img {
     font-size: 3rem;
     font-family: 'Poppins', sans-serif;
     font-weight: var(--font-semi-bold);
-    color: var(--text-color);
+    color: midnightblue;
 }
 
 .info_subtitle {
@@ -410,7 +410,7 @@ img {
 .qualification_tabs {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-3);
     font-family: 'Poppins', sans-serif;
 }
 
